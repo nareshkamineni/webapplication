@@ -31,7 +31,7 @@ pipeline {
    }
     stage ('DAST') {
       steps {
-      sh 'steps'
+      sh 'steps' 
     }
     
    }
